@@ -5,6 +5,7 @@ smtpObj = smtplib.SMTP('smtp.mail.ru', 587)
 smtpObj.starttls()
 
 from_add = 'svetka22.07@mail.ru'
+# It's privat information
 password = 'secret'
 
 smtpObj.login(from_add, password)
